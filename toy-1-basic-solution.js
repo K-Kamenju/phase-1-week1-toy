@@ -2,7 +2,7 @@
 
 let marks = 49
 
-function studentMarks() {
+function studentGrades() {
     if (marks > 79 && marks <= 100) {
         return "A"
     } else if (marks > 59 && marks < 80) {
@@ -18,4 +18,4 @@ function studentMarks() {
     }
 }
 
-console.log(studentMarks())
+console.log(studentGrades())

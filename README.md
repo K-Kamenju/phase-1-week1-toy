@@ -15,3 +15,16 @@ for this solution we have to:
     let marks = `how many marks they got`
 
     3. In order to have the return value corresponding to the correct grades we will use the function element and if ... else if
+
+    4. Note, use of the And operator (&&) to pass two conditions within the if and else if elements. That way if it satisfies one condition it will refer to the next
+
+
+This is the end of this solution.
+
+## Toy 1 - webpage
+
+In order for us to see our code run within a webpage browser, we will use the index.html file and working on the DOM to run our Js code.
+
+Note: I will be Using the html and css code framework I did for the webpage assignment in phase 0
+
+in order to access the output data from the js file into the DOM, we need to access the id of the various input, button and result names in our js files. We then have to add an event listener that will allow for our results to be released once we click on the button

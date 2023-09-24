@@ -12,6 +12,6 @@ for this solution we have to:
 
     2. Our input is student marks and the output is the grade
 
-    let studentMarks = `how many marks they got`
+    let marks = `how many marks they got`
 
     3. In order to have the return value corresponding to the correct grades we will use the function element and if ... else if

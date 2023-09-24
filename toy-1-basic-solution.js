@@ -1,8 +1,8 @@
 // code starts here
 
-let marks = 49
+let marks
 
-function studentGrades() {
+function studentGrades(marks) {
     if (marks > 79 && marks <= 100) {
         return "A"
     } else if (marks > 59 && marks < 80) {
@@ -18,4 +18,4 @@ function studentGrades() {
     }
 }
 
-console.log(studentGrades())
+console.log(studentGrades(49))

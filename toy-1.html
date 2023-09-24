@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="sticky">
+        <!--this container will be present in all my sections to allow my content have margins such that it doesnt fill a page-->
+        <div class="container">
+            <div id="logo">
+                <h1>Phase 1 Toy</h1>
+            </div>
+            
+            <nav>
+                <div>
+                    <ul class="lists">
+                        <li><a href="toy-1.html">Toy 1</a></li>
+                        <li><a href="toy-2.html">Toy 2</a></li>
+                        <li><a href="toy-3.html">Toy 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div> <!--This is The end of the Container in the header-->
+    </header>
+
+
+    <section id="showcase">
+        <div class="container grid">
+            <div class="column-1">
+                <h2>Kiiru C. Kamenju</h2>
+                <br/>
+                <p>This file contains answers to my toy that is visible from my browser</p><br/>
+            </div>
+            <div class="column-2">
+                <img src="images/me.png" alt="My image">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Student Grade Calculator</h1>
+            <div>
+                <input type="number" id="studentMarks" placeholder="INPUT Marks between 0 - 100">
+                <button id="calculate">Get Result</button>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section id="viewResult">
+        <div class="container">
+            <p id="results"></p>
+        </div>
+    </section>
+
+
+    <script src="toy-1-index.js"></script>
+</body>
+</html>

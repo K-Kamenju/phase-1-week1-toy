@@ -209,7 +209,7 @@ nav .lists a.hire-me:hover {
     height: 40px;
     width: 400px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 27px;
 }
 
 
@@ -223,7 +223,7 @@ nav .lists a.hire-me:hover {
 
 
 #viewResult p {
-    font-size: 65px;
+    font-size: 40px;
     text-transform: uppercase;
     color: var(--textTypeTwo-color);
     display: flex;
@@ -233,7 +233,6 @@ nav .lists a.hire-me:hover {
     color: var(--main-color);
     border: 1px solid;
     border-radius: 7%;
-    font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
 }

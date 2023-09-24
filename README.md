@@ -28,3 +28,9 @@ In order for us to see our code run within a webpage browser, we will use the in
 Note: I will be Using the html and css code framework I did for the webpage assignment in phase 0
 
 in order to access the output data from the js file into the DOM, we need to access the id of the various input, button and result names in our js files. We then have to add an event listener that will allow for our results to be released once we click on the button
+
+
+## Toy 2:
+
+Question = 
+

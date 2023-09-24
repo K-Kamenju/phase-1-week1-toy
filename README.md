@@ -1,3 +1,6 @@
+## NOTE, FOR WEBPAGE RESULTS, CHANGE THE BROWSER TO A FULL SCREEN AS THE PAGE IS NOT FULLY RESPONSIVE
+
+
 ## Toy 1:
 
 note; for getting the basic solution to this challenge, open the toy-1-basic-solution.js
@@ -13,15 +16,17 @@ Write a function that prompts the user to input student marks. The input should 
 
 for this solution we have to:
     
-    1. Identify the inputs and outputs to have a grasp at what needs to be declared and what needs to be the return value
 
-    2. Our input is student marks and the output is the grade
+1. Identify the inputs and outputs to have a grasp at what needs to be declared and what needs to be the return value
 
-    let marks = `how many marks they got`
+2. Our input is Speed and the output is the points
 
-    3. In order to have the return value corresponding to the correct grades we will use the function element and if ... else if
+    let speed = `how many marks they got`
 
-    4. Note, use of the And operator (&&) to pass two conditions within the if and else if elements. That way if it satisfies one condition it will refer to the next
+3. In order to have the return value corresponding to the correct grades we will use the function element and if ... else if
+
+4. Note, use of the And operator (&&) to pass two conditions within the if and else if elements. That way if it satisfies one condition it will refer to the next
+
 
 
 This is the end of this solution.
@@ -48,3 +53,34 @@ Write a program that takes the speed of a car as input e.g 80. If the speed is l
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 for this solution we have to:
+
+
+1. Identify the inputs and outputs to have a grasp at what needs to be declared and what needs to be the return value
+
+2. Our input is student marks and the output is the grade
+
+    let marks = `what speed are they going`
+
+3. In order to have the return value corresponding to the correct speed we will use the function element and if ... else 
+
+4. in the else statement, we need to declare the points variable whose value is an expression that evaluates the main condition of the question. The condition states that, for every increase in 5Km/h from 70kph the driver gets one demerit point. In order to express this we can say:
+
+    speed - 70 / 5 will give us the demerits point.
+
+    i.e 80-70 = 10/5 = 2 
+
+However, note that some digits such as 73 are not divisible by 5 we therefore, need to use a method that will round up the answer and not to any side but the higher side since 
+
+    73-70= 3/5 = 0.6 and the speed limit is 70. therefore, 73 should return 1 demerit
+
+
+This is the end of this solution.
+
+
+# Toy 2 - Webpage
+
+In order for us to see our code run within a webpage browser, we will use the index.html file and working on the DOM to run our Js code.
+
+Note: I will be Using the html and css code framework I did for the webpage assignment in phase 0
+
+in order to access the output data from the js file into the DOM, we need to access the id of the various input, button and result names in our js files. We then have to add an event listener that will allow for our results to be released once we click on the button

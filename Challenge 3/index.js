@@ -22,16 +22,16 @@ function calculate() {
     taxResults.innerHTML = answer;
   }
 
-
+//  Note: that the paye is calculated as a compounded cost
 function payeDeduction(grossSalary) {
     if (grossSalary <= 24000) {
         return 10/100 * grossSalary
-    } else if (grossSalary > 24000 && grossSalary <= 32333) {
-        return 25/100 * grossSalary
-    } else if (grossSalary > 32333 && grossSalary <= 500000) {
-        return 30/100 * grossSalary
-    } else if (grossSalary > 500000 && grossSalary <= 80000) {
-        return 32.5/100 * grossSalary
+    } else if (grossSalary - 24000 <= 8333) {
+        return 25/100 * (grossSalary -24000) + 2400
+    } else if (grossSalary - 32333 <= 467667) {
+        return (grossSalary-32333)*0.3 +(24000 * 0.1) + (8333 * 0.25)
+    } else if (grossSalary - 500000 <= 300000) {
+        return (grossSalary - 500000) * 0.325 + (24000 * 0.1) + (8333 * 0.25) + (467667 * 0.3)
     } else if (grossSalary > 800000) {
         return 35/100 * grossSalary
     }

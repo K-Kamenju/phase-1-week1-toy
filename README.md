@@ -1,9 +1,9 @@
-## NOTE, FOR WEBPAGE RESULTS, CHANGE THE BROWSER TO A FULL SCREEN AS THE PAGE IS NOT FULLY RESPONSIVE
+# NOTE, FOR WEBPAGE RESULTS, CHANGE THE BROWSER TO A FULL SCREEN AS THE PAGE IS NOT FULLY RESPONSIVE
 
-# TO VIEW THE PROMPTS IN MY PROGRAM RUN 'OPEN INDEX.HTML' IN THE TERMINAL AND INTERACT WITH THE PAGE
+## TO VIEW THE PROMPTS IN MY PROGRAM RUN 'OPEN INDEX.HTML' IN THE TERMINAL AND INTERACT WITH THE PAGE
 
 
-## Toy 1:
+# Toy 1:
 
 note; for getting the basic solution to this challenge, open the toy-1-basic-solution.js
 
@@ -34,7 +34,7 @@ for this solution we have to:
 This is the end of this solution.
 
 
-# Toy 1 - webpage
+## Toy 1 - webpage
 
 In order for us to see our code run within a webpage browser, we will use the index.html file and working on the DOM to run our Js code.
 
@@ -51,7 +51,7 @@ in order to access the output data from the js file into the DOM, we need to acc
 
 
 
-## Toy 2:
+# Toy 2:
 
 Note; for getting the basic solution to this challenge, open the toy-2-basic-solution.js
 
@@ -88,7 +88,7 @@ However, note that some digits such as 83 are not divisible by 5 we therefore, n
 This is the end of this solution.
 
 
-# Toy 2 - Webpage
+## Toy 2 - Webpage
 
 In order for us to see our code run within a webpage browser, we will use the index.html file and working on the DOM to run our Js code.
 
@@ -104,7 +104,7 @@ in order to access the output data from the js file into the DOM, we need to acc
 
 
 
-## Toy 3
+# Toy 3
 
 note; for getting the basic solution to this challenge, open the toy-3-basic-solution.js
 
@@ -136,7 +136,7 @@ for NSSF calculations we will use the tiers to define maximum amounts and minimu
 
 
 
-# Toy 3 - Webpage
+## Toy 3 - Webpage
 
 since most of the data needed in this challenge is standard, we only need to have an event listener and a dynamic change only for the gross salary input 
 

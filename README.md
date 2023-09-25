@@ -121,3 +121,10 @@ for this solution we have to:
 
 1. identify the inputs and out puts to be used in the project.
 the input is the gross salary and the output is the net salary
+
+2. The net salary should be:
+
+    const netSalary = grossSalary - paye -NHIF - NSSF + benifit f
+
+3. With that in mind we can input the data from the KRA table into the relevant functions to have the deductions as shown above
+

@@ -8,16 +8,19 @@ const taxResults = document.getElementById("taxResult")
 calculateNetPay.addEventListener("click", calculate)
 
 
-
-function calculate(){
-    const grossSalary = grossSalaryHtml.value
-    // we run this code above for our grossSalary to be the value that will be input in our browser
-    let personalRelief = 2400
-    let answer
+function calculate() {
+    const grossSalary = parseFloat(grossSalaryHtml.value); // we run this code above for our grossSalary to be the value that will be input in our browser and we need to parse.float() to get the decimal value of our answer
+    
+    if (grossSalary <= 0) {
+      taxResults.innerHTML = "Please Input Salary"; // Display the message for values that are negative or 0
+      return; // Exit the function
+    }
+  
+    let personalRelief = 2400;
+    let answer;
     answer = grossSalary - payeDeduction(grossSalary) + personalRelief - deductionsNHIF(grossSalary) - deductionsNSSF(grossSalary) - housingLevy(grossSalary);
-  taxResults.innerHTML = answer;
-}
-
+    taxResults.innerHTML = answer;
+  }
 
 
 function payeDeduction(grossSalary) {

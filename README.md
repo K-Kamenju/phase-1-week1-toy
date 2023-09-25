@@ -1,13 +1,13 @@
 ## NOTE, FOR WEBPAGE RESULTS, CHANGE THE BROWSER TO A FULL SCREEN AS THE PAGE IS NOT FULLY RESPONSIVE
 
-
+# TO VIEW THE PROMPTS IN MY PROGRAM RUN 'OPEN INDEX.HTML' IN THE TERMINAL AND INTERACT WITH THE PAGE
 
 
 ## Toy 1:
 
 note; for getting the basic solution to this challenge, open the toy-1-basic-solution.js
 
-to see the webpage results in which the function solution manipulates the DOM view the toy-1-index.js
+to see the webpage results in which the function solution manipulates the DOM view the index.js
 
 
 Question = 
@@ -55,7 +55,7 @@ in order to access the output data from the js file into the DOM, we need to acc
 
 Note; for getting the basic solution to this challenge, open the toy-2-basic-solution.js
 
-To see the webpage results in which the function solution manipulates the DOM view the toy-2-index.js
+To see the webpage results in which the function solution manipulates the DOM view the index.js
 
 Question = 
 
@@ -108,7 +108,7 @@ in order to access the output data from the js file into the DOM, we need to acc
 
 note; for getting the basic solution to this challenge, open the toy-3-basic-solution.js
 
-to see the webpage results in which the function solution manipulates the DOM view the toy-3-index.js
+to see the webpage results in which the function solution manipulates the DOM view the index.js
 
 
 Question = 
@@ -133,4 +133,10 @@ the input is the gross salary and the output is the net salary
 for NSSF calculations we will use the tiers to define maximum amounts and minimum amounts.
 
     note; for NSSF, the tiers change based on how much the contribution amount is.
+
+
+
+# Toy 3 - Webpage
+
+since most of the data needed in this challenge is standard, we only need to have an event listener and a dynamic change only for the gross salary input 
 

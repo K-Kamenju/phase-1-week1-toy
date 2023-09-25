@@ -1,5 +1,5 @@
 // code begins here
-
+// grossSalary can be reassigned hence the use of let, the personalRelief is permanent hence use of const
 let grossSalary = 25000
 const personalRelief = 2400
 
@@ -18,6 +18,10 @@ function paye() {
         return 35/100 * grossSalary
     }
 }
+
+
+
+// this bit of code for NHIF has to be this long as the conditions change and its not an interval change for most of them, and the returns also differ
 
 function deductionsNHIF() {
     if (grossSalary < 5000) {
@@ -62,6 +66,8 @@ function deductionsNHIF() {
 // const tier2 = "Upper Limit" 
 // using the tiers as parameters was not bringing the desired results
 
+// this bit on NSSF needs a bit of revision 
+
 function deductionsNSSF() {
     let pension
     if (grossSalary * 6/100 <= 6000) {
@@ -81,6 +87,7 @@ function housingLevy() {
 }
 
 
+// this is the code that runs the calculation
 
 const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF() - housingLevy()
 

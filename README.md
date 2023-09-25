@@ -80,9 +80,9 @@ for this solution we have to:
 
     i.e 80-70 = 10/5 = 2 
 
-However, note that some digits such as 73 are not divisible by 5 we therefore, need to use a method that will round up the answer and not to any side but the higher side since 
+However, note that some digits such as 83 are not divisible by 5 we therefore, need to use a method that will round down the answer and not to any side but the lower side since 
 
-    73-70= 3/5 = 0.6 and the speed limit is 70. therefore, 73 should return 1 demerit
+    83-70= 13/5 = 2.6 and the speed limit is 70. therefore, 83 should return 2 demerit points
 
 
 This is the end of this solution.

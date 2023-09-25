@@ -22,4 +22,4 @@ function studentGrades(marks) {
     }
 }
 
-console.log(studentGrades(49))
+console.log(studentGrades())

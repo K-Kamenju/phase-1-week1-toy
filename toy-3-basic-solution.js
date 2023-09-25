@@ -54,9 +54,29 @@ function deductionsNHIF() {
 }
 
 
+const nssfTiers = ["Tier 1", "Tier 2"]
+
+function deductionsNSSF(nssfTiers) {
+    let pension
+    if (nssfTiers[0]) {
+        let pensionPay = grossSalary * 6/100
+        pension = pensionPay <= 6000 ? pensionPay : 6000;
+        return pension
+    } else if (nssfTiers[1]) {
+        let pensionPayable = grossSalary * 6/100
+        if (pensionPayable < 6000) {
+            pension = 6001
+            return pension
+        } else if (pensionPayable <= 18000) {
+            pension = pensionPayable <= 18000 ? pensionPay : 18000;
+            return pension
+        }
+    }
+}
 
 
 
-const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF()
+
+const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF(nssfTiers[])
 
 console.log(netSalary)

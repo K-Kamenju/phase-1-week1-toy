@@ -124,7 +124,7 @@ the input is the gross salary and the output is the net salary
 
 2. The net salary should be:
 
-    const netSalary = grossSalary - paye -NHIF - NSSF + benifit
+    const netSalary = grossSalary - paye -NHIF - NSSF - housingLevy + personalRelief
 
 3. With that in mind we can input the data from the KRA table into the relevant functions to have the deductions as shown above
 

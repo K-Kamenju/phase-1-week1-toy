@@ -10,8 +10,12 @@ function paye() {
         return 10/100 * grossSalary
     } else if (grossSalary > 24000 && grossSalary <= 32333) {
         return 25/100 * grossSalary
-    } else if (grossSalary > 32333) {
+    } else if (grossSalary > 32333 && grossSalary <= 500000) {
         return 30/100 * grossSalary
+    } else if (grossSalary > 500000 && grossSalary <= 80000) {
+        return 32.5/100 * grossSalary
+    } else if (grossSalary > 800000) {
+        return 35/100 * grossSalary
     }
 }
 
@@ -71,10 +75,13 @@ function deductionsNSSF() {
     }
 }
 
+function housingLevy() {
+    let housingTax = 1.5/100 * grossSalary
+    return housingTax
+}
 
 
 
-
-const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF()
+const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF() - housingLevy()
 
 console.log(netSalary)

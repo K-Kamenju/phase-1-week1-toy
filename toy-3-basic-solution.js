@@ -60,17 +60,12 @@ function deductionsNSSF(nssfTiers) {
     let pension
     if (nssfTiers[0]) {
         let pensionPay = grossSalary * 6/100
-        pension = pensionPay <= 6000 ? pensionPay : 6000;
+        pension = Math.min(pensionPay, 6001)
         return pension
     } else if (nssfTiers[1]) {
-        let pensionPayable = grossSalary * 6/100
-        if (pensionPayable < 6000) {
-            pension = 6001
-            return pension
-        } else if (pensionPayable <= 18000) {
-            pension = pensionPayable <= 18000 ? pensionPay : 18000;
-            return pension
-        }
+        let pensionPay = grossSalary * 6/100
+        pension = Math.min(Math.max(pensionPay, 6001), 18000)
+        return pension
     }
 }
 

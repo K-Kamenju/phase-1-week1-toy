@@ -54,15 +54,17 @@ function deductionsNHIF() {
 }
 
 
-const nssfTiers = ["Tier 1", "Tier 2"]
+// const tier1 = "Lower Limit"
+// const tier2 = "Upper Limit" 
+// using the tiers as parameters was not bringing the desired results
 
-function deductionsNSSF(nssfTiers) {
+function deductionsNSSF() {
     let pension
-    if (nssfTiers[0]) {
+    if (grossSalary * 6/100 <= 6000) {
         let pensionPay = grossSalary * 6/100
         pension = Math.min(pensionPay, 6001)
         return pension
-    } else if (nssfTiers[1]) {
+    } else if (grossSalary * 6/100 > 6000) {
         let pensionPay = grossSalary * 6/100
         pension = Math.min(Math.max(pensionPay, 6001), 18000)
         return pension
@@ -72,6 +74,7 @@ function deductionsNSSF(nssfTiers) {
 
 
 
-const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF(nssfTiers[])
+
+const netSalary = grossSalary - paye() + personalRelief - deductionsNHIF() - deductionsNSSF()
 
 console.log(netSalary)

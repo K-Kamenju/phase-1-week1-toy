@@ -124,7 +124,13 @@ the input is the gross salary and the output is the net salary
 
 2. The net salary should be:
 
-    const netSalary = grossSalary - paye -NHIF - NSSF + benifit f
+    const netSalary = grossSalary - paye -NHIF - NSSF + benifit
 
 3. With that in mind we can input the data from the KRA table into the relevant functions to have the deductions as shown above
+
+4. For NHIF deductions the code will be longer than expected as the condition changes for everytier.
+
+for NSSF calculations we will use the tiers to define maximum amounts and minimum amounts.
+
+    note; for NSSF, the tiers change based on how much the contribution amount is.
 

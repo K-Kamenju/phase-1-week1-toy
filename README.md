@@ -1,6 +1,8 @@
 ## NOTE, FOR WEBPAGE RESULTS, CHANGE THE BROWSER TO A FULL SCREEN AS THE PAGE IS NOT FULLY RESPONSIVE
 
 
+
+
 ## Toy 1:
 
 note; for getting the basic solution to this challenge, open the toy-1-basic-solution.js
@@ -31,13 +33,22 @@ for this solution we have to:
 
 This is the end of this solution.
 
-## Toy 1 - webpage
+
+# Toy 1 - webpage
 
 In order for us to see our code run within a webpage browser, we will use the index.html file and working on the DOM to run our Js code.
 
 Note: I will be Using the html and css code framework I did for the webpage assignment in phase 0
 
 in order to access the output data from the js file into the DOM, we need to access the id of the various input, button and result names in our js files. We then have to add an event listener that will allow for our results to be released once we click on the button
+
+
+
+
+
+
+
+
 
 
 ## Toy 2:
@@ -84,3 +95,29 @@ In order for us to see our code run within a webpage browser, we will use the in
 Note: I will be Using the html and css code framework I did for the webpage assignment in phase 0
 
 in order to access the output data from the js file into the DOM, we need to access the id of the various input, button and result names in our js files. We then have to add an event listener that will allow for our results to be released once we click on the button
+
+
+
+
+
+
+
+
+
+## Toy 3
+
+note; for getting the basic solution to this challenge, open the toy-3-basic-solution.js
+
+to see the webpage results in which the function solution manipulates the DOM view the toy-3-index.js
+
+
+Question = 
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+
+    > NB: Use KRA, NHIF, and NSSF values provided in the link below.
+
+for this solution we have to:
+
+1. identify the inputs and out puts to be used in the project.
+the input is the gross salary and the output is the net salary

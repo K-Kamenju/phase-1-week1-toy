@@ -3,6 +3,45 @@
 ## TO VIEW THE PROMPTS IN MY PROGRAM RUN 'OPEN INDEX.HTML' IN THE TERMINAL AND INTERACT WITH THE PAGE
 
 
+## TECHNOLOGIES USED
+
+1. HTML & CSS (Bootstrap)
+2. Javascript
+3. JS browser console
+3. VS code
+
+
+### Setup Instructions
+
+1. Clone this repository to a location in your file system using git clone
+2. Open terminal command line then navigate to the root folder of the application using the cd <file name>
+3. Open index.html on your Browser.​​
+
+
+
+# Main questions were are solving: 
+
+1. TOY -1 : Question = 
+
+Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+
+        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
+2. TOY-2 : Question = 
+
+Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+
+3. TOY-3: Question = 
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+
+    > NB: Use KRA, NHIF, and NSSF values provided in the link below.
+
+
+ # SOLUTIONS   
+
 # Toy 1:
 
 note; for getting the basic solution to this challenge, open the toy-1-basic-solution.js

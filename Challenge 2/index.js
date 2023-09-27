@@ -4,7 +4,7 @@ const speedLimit = document.getElementById("speedLimit")
 const calculateSpeed = document.getElementById("calculateSpeed")
 const resultValue = document.getElementById("resultValue")
 
-calculateSpeed.addEventListener("click", calculationOfSpeed)
+calculateSpeed.addEventListener("click", calculationOfSpeed) 
 
 
 function calculationOfSpeed() {
